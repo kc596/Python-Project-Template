@@ -1,0 +1,13 @@
+logs:
+  handlers:
+    console:
+      level: DEBUG
+    file:
+      level: DEBUG
+  loggers:
+    __main__:
+      level: DEBUG
+      handlers: [console, file]
+  root:
+    level: DEBUG
+    handlers: [console, file]
