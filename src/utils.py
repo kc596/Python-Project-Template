@@ -6,7 +6,6 @@ import yaml
 from src import constants
 
 
-INIT = False
 LOGGER_INITIALIZED = False
 CONFIG = None
 CONFIG_FILE_NAME = constants.CONFIG_FILE_NAME
